@@ -37,8 +37,8 @@ To model and analyze social network dynamics using graph theory principles, spec
 ## **How It Works**
 
 ### **Input**
-- A graph representation of a social network (e.g., adjacency matrix or list).
-- Node attributes representing individual preferences, utilities, or strategic choices.
+- A graph representation of a social network (specifically grids).
+- Node attributes or row, col tuples representing individual preferences, utilities, or strategic choices.
 
 ### **Simulation Steps**
 1. **Initialize the Graph**:
@@ -46,7 +46,7 @@ To model and analyze social network dynamics using graph theory principles, spec
 2. **Model Dynamics**:
    - Implement rules based on Schelling, Nora, or Winter's theories to simulate interactions over multiple iterations.
 3. **Analyze Results**:
-   - Evaluate segregation levels, cluster formations, or strategic outcomes using graph metrics (e.g., modularity, centrality).
+   - Evaluate segregation levels, cluster formations, or strategic outcomes.
 
 ### **Output**
 - Visualizations of network changes over time.
@@ -70,7 +70,6 @@ This project serves as an engaging and challenging assignment for students, enab
 - Python (primary language for simulation and analysis).
 
 ### **Libraries**
-- NetworkX: For graph creation and analysis.
 - Matplotlib/Plotly: For data visualization.
 - NumPy: For efficient numerical computations.
 
